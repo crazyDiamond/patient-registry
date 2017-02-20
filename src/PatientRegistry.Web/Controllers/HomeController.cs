@@ -27,6 +27,13 @@ namespace WebApplication.Controllers
             return View();
         }
 
+        public IActionResult Patient()
+        {
+            ViewData["Message"] = "Your Patient page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
