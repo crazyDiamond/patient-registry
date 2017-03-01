@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Tests
+namespace Controllers
 {
     public class Tests
     {
@@ -11,14 +11,5 @@ namespace Tests
             Assert.True(true);
         }
 
-        [Fact]
-        public void Sometest(){
-            Assert.True(45 < 46);
-        }
-
-        [Fact]
-        public void SomeotherTest(){
-            Assert.True(50 < 51);
-        }
     }
 }
